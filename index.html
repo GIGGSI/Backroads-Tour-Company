@@ -17,23 +17,23 @@
 
 <body>
     <!-- header -->
-    <header class="home">
+    <header class="home" id="home">
         <!-- navbar -->
         <nav class="navbar">
             <div class="nav-center">
                 <div class="nav-header">
-                    <img src="./images/logo.svg" class="nav-logo" alt="logo">
+                    <a href="#home"><img src="./images/logo.svg" class="nav-logo" alt="logo"></a>
                     <button type="button" class="nav-toggle" id="nav-toggle" aria-label="nav toggler">
                         <i class="fas fa-bars"></i>
                     </button>
                 </div>
 
                 <div class="nav-links" id="nav-links">
-                    <a href="#home" class="nav-link">home</a>
-                    <a href="#about" class="nav-link">about</a>
-                    <a href="#services" class="nav-link">services</a>
-                    <a href="#featured" class="nav-link">featured</a>
-                    <a href="#gallery" class="nav-link">gallery</a>
+                    <a href="#home" class="nav-link scroll-link">home</a>
+                    <a href="#about" class="nav-link scroll-link">about</a>
+                    <a href="#services" class="nav-link scroll-link">services</a>
+                    <a href="#featured" class="nav-link scroll-link">featured</a>
+                    <a href="#gallery" class="nav-link scroll-link">gallery</a>
                 </div>
                 <div class="nav-icons">
                     <a href="https://www.twitter.com" target="_blank" class="nav-icon">
@@ -56,7 +56,7 @@
                     provident illo quos vitae? Libero molestiae deleniti magni nulla necessitatibus eius iure ut,
                     fugiat, vero error architecto praesentium rerum.
                 </p>
-                <a href="#heatured" class="btn-white">explore tours</a>
+                <a href="#featured" class="btn-white scroll-link">explore tours</a>
             </div>
         </div>
 
@@ -350,11 +350,11 @@
     <!-- footer -->
     <footer class="section footer">
         <div class="footer-links">
-            <a href="#home" class="footer-link">home</a>
-            <a href="#about" class="footer-link">about</a>
-            <a href="#services" class="footer-link">services</a>
-            <a href="#featured" class="footer-link">featured</a>
-            <a href="#gallery" class="footer-link">gallery</a>
+            <a href="#home" class="footer-link scroll-link">home</a>
+            <a href="#about" class="footer-link scroll-link">about</a>
+            <a href="#services" class="footer-link scroll-link">services</a>
+            <a href="#featured" class="footer-link scroll-link">featured</a>
+            <a href="#gallery" class="footer-link scroll-link">gallery</a>
         </div>
         <!-- footer icons -->
         <div class="footer-icons">
@@ -381,6 +381,7 @@
 
 
     <script src="app.js"></script>
+    <!-- <script src="complete-app.js"></script> -->
 </body>
 
 </html>
